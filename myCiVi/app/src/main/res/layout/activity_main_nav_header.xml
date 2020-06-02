@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="176dip"
+    android:background="#B2B9E1"
+    android:gravity="center"
+    android:paddingLeft="10dp"
+    android:orientation="vertical">
+<!--
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/photo"
+        android:background="@drawable/rounded_image">
+    </ImageView>-->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageViewPres"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:src="@drawable/photo"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/rounded_image"/>
+    </FrameLayout>
+<!--    <TextView
+        android:id="@+id/dateNaissance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="né le 22/05/1980"
+        />
+    <TextView
+        android:id="@+id/adresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15 rue du Progrès, 93100 Montreuil"
+        />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="@string/email"
+        />
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:text="0750677245"
+        />
+        -->
+    <TextView
+        android:id="@+id/poste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Développeur / Concepteur"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+</LinearLayout>

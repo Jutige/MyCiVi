@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CV de Judicaël TIGÉ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="form_polytech">Diplome d\'ingérieur en informatique (2005)</string>
+    <string name="form_cgi">Formation COBOL, DB2, JCL (2007)</string>
+    <string name="form_bnpp">Formation de formateur (2015 et 2016)</string>
+    <string name="form_epita">Re-skilling open (en cours)</string>
+    <string name="form_partecis">Formation AGILE méthode SCRUM (2018)\nFormations monétiques (internes et avec Galitt)</string>
+    <string name="lois_squash">Squash</string>
+    <string name="lois_lecture">Lecture</string>
+    <string name="lois_club_sport">Club de sport</string>
+    <string name="lois_titre">Mes loisirs du moment</string>
+    <string name="infos_titre">Informations personnelles</string>
+    <string name="infos_adresse">15 rue du Progrès, 93100 Montreuil</string>
+    <string name="infos_date_lieu">né le 22/05/1980 à Angers</string>
+    <string name="infos_tel">07 50 67 72 45</string>
+</resources>
